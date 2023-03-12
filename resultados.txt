@@ -1,0 +1,42 @@
+2023/03/11 19:09:58 Tiempo empleado método Burbuja con arreglo de 100 elementos: 33.831µs
+2023/03/11 19:09:58 Tiempo empleado método Burbuja Doble con arreglo de 100 elementos: 23.047µs
+2023/03/11 19:09:58 Tiempo empleado método Seleccion con arreglo de 100 elementos: 19.992µs
+2023/03/11 19:09:58 Tiempo empleado método Insercion con arreglo de 100 elementos: 7.541µs
+2023/03/11 19:09:58 Tiempo empleado método Recursive Insertion con arreglo de 100 elementos: 9.761µs
+2023/03/11 19:09:58 Tiempo empleado método Shell con arreglo de 100 elementos: 13.619µs
+2023/03/11 19:09:58 Tiempo empleado método Bucket con arreglo de 100 elementos: 41.671µs
+2023/03/11 19:09:58 Tiempo empleado método Merge con arreglo de 100 elementos: 54.482µs
+2023/03/11 19:09:58 Tiempo empleado método Quick con arreglo de 100 elementos: 60.358µs
+2023/03/11 19:09:58 Tiempo empleado método Stooge con arreglo de 100 elementos: 1.954607ms
+2023/03/11 19:09:58 Tiempo empleado método Heap con arreglo de 100 elementos: 1.965781ms
+2023/03/11 19:09:58 Tiempo empleado método Burbuja con arreglo de 1000 elementos: 2.961159ms
+2023/03/11 19:09:58 Tiempo empleado método Burbuja Doble con arreglo de 1000 elementos: 1.588261ms
+2023/03/11 19:09:58 Tiempo empleado método Seleccion con arreglo de 1000 elementos: 1.793025ms
+2023/03/11 19:09:58 Tiempo empleado método Insercion con arreglo de 1000 elementos: 443.633µs
+2023/03/11 19:09:58 Tiempo empleado método Recursive Insertion con arreglo de 1000 elementos: 775.182µs
+2023/03/11 19:09:58 Tiempo empleado método Shell con arreglo de 1000 elementos: 127.451µs
+2023/03/11 19:09:58 Tiempo empleado método Bucket con arreglo de 1000 elementos: 833.941µs
+2023/03/11 19:09:58 Tiempo empleado método Merge con arreglo de 1000 elementos: 976.808µs
+2023/03/11 19:09:58 Tiempo empleado método Quick con arreglo de 1000 elementos: 787.275µs
+2023/03/11 19:09:58 Tiempo empleado método Stooge con arreglo de 1000 elementos: 324.296018ms
+2023/03/11 19:09:59 Tiempo empleado método Heap con arreglo de 1000 elementos: 330.255536ms
+2023/03/11 19:09:59 Tiempo empleado método Burbuja con arreglo de 10000 elementos: 252.535489ms
+2023/03/11 19:09:59 Tiempo empleado método Burbuja Doble con arreglo de 10000 elementos: 169.325923ms
+2023/03/11 19:09:59 Tiempo empleado método Seleccion con arreglo de 10000 elementos: 120.67471ms
+2023/03/11 19:09:59 Tiempo empleado método Insercion con arreglo de 10000 elementos: 37.163371ms
+2023/03/11 19:09:59 Tiempo empleado método Recursive Insertion con arreglo de 10000 elementos: 51.452162ms
+2023/03/11 19:09:59 Tiempo empleado método Shell con arreglo de 10000 elementos: 1.862448ms
+2023/03/11 19:09:59 Tiempo empleado método Bucket con arreglo de 10000 elementos: 40.027688ms
+2023/03/11 19:09:59 Tiempo empleado método Merge con arreglo de 10000 elementos: 6.881704ms
+2023/03/11 19:09:59 Tiempo empleado método Quick con arreglo de 10000 elementos: 11.852019ms
+2023/03/11 19:13:52 Tiempo empleado método Stooge con arreglo de 10000 elementos: 3m52.883882092s
+2023/03/11 19:17:44 Tiempo empleado método Heap con arreglo de 10000 elementos: 3m52.138877075s
+2023/03/11 19:18:14 Tiempo empleado método Burbuja con arreglo de 100000 elementos: 29.588715748s
+2023/03/11 19:18:31 Tiempo empleado método Burbuja Doble con arreglo de 100000 elementos: 16.953404872s
+2023/03/11 19:18:43 Tiempo empleado método Seleccion con arreglo de 100000 elementos: 11.737808953s
+2023/03/11 19:18:46 Tiempo empleado método Insercion con arreglo de 100000 elementos: 3.605973605s
+2023/03/11 19:18:51 Tiempo empleado método Recursive Insertion con arreglo de 100000 elementos: 4.739613121s
+2023/03/11 19:18:51 Tiempo empleado método Shell con arreglo de 100000 elementos: 26.3593ms
+2023/03/11 19:18:55 Tiempo empleado método Bucket con arreglo de 100000 elementos: 3.63836013s
+2023/03/11 19:18:55 Tiempo empleado método Merge con arreglo de 100000 elementos: 84.182941ms
+2023/03/11 19:18:55 Tiempo empleado método Quick con arreglo de 100000 elementos: 107.776577ms
