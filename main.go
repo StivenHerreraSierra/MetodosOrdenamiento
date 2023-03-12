@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"ordenamiento/metodos"
 	"ordenamiento/util"
 	"os"
@@ -9,12 +10,27 @@ import (
 )
 
 func main() {
-	//testMetodos(100)
-	//testMetodos(1000)
-	//testMetodos(10000)
-	//testMetodos(100000)
-	//testMetodos(1000000)
-	testMetodos(10000000)
+	iniciarPruebas()
+}
+
+func iniciarPruebas() {
+	log.Println("\nInicia la prueba con 100 elementos")
+	testMetodos(100)
+
+	log.Println("\nInicia la prueba con 1.000 elementos")
+	testMetodos(1000)
+
+	log.Println("\nInicia la prueba con 10.000 elementos")
+	testMetodos(10000)
+
+	log.Println("\nInicia la prueba con 50.000 elementos")
+	testMetodos(50000)
+
+	log.Println("\nInicia la prueba con 100.000 elementos")
+	testMetodos(100000)
+
+	log.Println("\nInicia la prueba con 500.000 elementos")
+	testMetodos(500000)
 }
 
 func testMetodos(tamanoArray int) {
@@ -22,8 +38,8 @@ func testMetodos(tamanoArray int) {
 	array := util.LeerArray(file2)
 	defer file2.Close()
 
-	//testBurbuja(array)
-	//testBurbujaDoble(array)
+	testBurbuja(array)
+	testBurbujaDoble(array)
 	testSeleccion(array)
 	testInsercion(array)
 	testRecursiveInsertion(array)
@@ -31,8 +47,13 @@ func testMetodos(tamanoArray int) {
 	testBucket(array)
 	testMerge(array)
 	testQuick(array)
-	//testStooge(array)
-	//testHeap(array)
+	testStooge(array)
+	testHeap(array)
+	testBitonic(array)
+	testGnome(array)
+	testBinaryInsertion(array)
+	testStrand(array)
+	testRadix(array)
 }
 
 func testBurbuja(array []int) {
@@ -143,4 +164,54 @@ func testHeap(array []int) {
 	defer util.MedirTiempo(now, "Tiempo empleado método Heap con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
 
 	metodos.StoogeSort(arrayCopy)
+}
+
+func testBitonic(array []int) {
+	arrayCopy := make([]int, len(array))
+	copy(arrayCopy, array)
+
+	now := time.Now()
+	defer util.MedirTiempo(now, "Tiempo empleado método Bitonic con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
+
+	metodos.BitonicSort(arrayCopy, true)
+}
+
+func testGnome(array []int) {
+	arrayCopy := make([]int, len(array))
+	copy(arrayCopy, array)
+
+	now := time.Now()
+	defer util.MedirTiempo(now, "Tiempo empleado método Gnome con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
+
+	metodos.GnomeSort(arrayCopy)
+}
+
+func testBinaryInsertion(array []int) {
+	arrayCopy := make([]int, len(array))
+	copy(arrayCopy, array)
+
+	now := time.Now()
+	defer util.MedirTiempo(now, "Tiempo empleado método Binary Insertion con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
+
+	metodos.BinaryInsertionSort(arrayCopy)
+}
+
+func testStrand(array []int) {
+	arrayCopy := make([]int, len(array))
+	copy(arrayCopy, array)
+
+	now := time.Now()
+	defer util.MedirTiempo(now, "Tiempo empleado método Strand con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
+
+	metodos.StrandSort(arrayCopy)
+}
+
+func testRadix(array []int) {
+	arrayCopy := make([]int, len(array))
+	copy(arrayCopy, array)
+
+	now := time.Now()
+	defer util.MedirTiempo(now, "Tiempo empleado método Radix con arreglo de "+strconv.Itoa(len(array))+" elementos: %s\n")
+
+	metodos.RadixSort(arrayCopy)
 }
