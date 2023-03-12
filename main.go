@@ -47,13 +47,13 @@ func testMetodos(tamanoArray int) {
 	testBucket(array)
 	testMerge(array)
 	testQuick(array)
-	testStooge(array)
 	testHeap(array)
 	testBitonic(array)
 	testGnome(array)
 	testBinaryInsertion(array)
 	testStrand(array)
 	testRadix(array)
+	testStooge(array)
 }
 
 func testBurbuja(array []int) {
