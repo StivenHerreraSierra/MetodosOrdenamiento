@@ -1,42 +1,95 @@
-2023/03/11 19:09:58 Tiempo empleado método Burbuja con arreglo de 100 elementos: 33.831µs
-2023/03/11 19:09:58 Tiempo empleado método Burbuja Doble con arreglo de 100 elementos: 23.047µs
-2023/03/11 19:09:58 Tiempo empleado método Seleccion con arreglo de 100 elementos: 19.992µs
-2023/03/11 19:09:58 Tiempo empleado método Insercion con arreglo de 100 elementos: 7.541µs
-2023/03/11 19:09:58 Tiempo empleado método Recursive Insertion con arreglo de 100 elementos: 9.761µs
-2023/03/11 19:09:58 Tiempo empleado método Shell con arreglo de 100 elementos: 13.619µs
-2023/03/11 19:09:58 Tiempo empleado método Bucket con arreglo de 100 elementos: 41.671µs
-2023/03/11 19:09:58 Tiempo empleado método Merge con arreglo de 100 elementos: 54.482µs
-2023/03/11 19:09:58 Tiempo empleado método Quick con arreglo de 100 elementos: 60.358µs
-2023/03/11 19:09:58 Tiempo empleado método Stooge con arreglo de 100 elementos: 1.954607ms
-2023/03/11 19:09:58 Tiempo empleado método Heap con arreglo de 100 elementos: 1.965781ms
-2023/03/11 19:09:58 Tiempo empleado método Burbuja con arreglo de 1000 elementos: 2.961159ms
-2023/03/11 19:09:58 Tiempo empleado método Burbuja Doble con arreglo de 1000 elementos: 1.588261ms
-2023/03/11 19:09:58 Tiempo empleado método Seleccion con arreglo de 1000 elementos: 1.793025ms
-2023/03/11 19:09:58 Tiempo empleado método Insercion con arreglo de 1000 elementos: 443.633µs
-2023/03/11 19:09:58 Tiempo empleado método Recursive Insertion con arreglo de 1000 elementos: 775.182µs
-2023/03/11 19:09:58 Tiempo empleado método Shell con arreglo de 1000 elementos: 127.451µs
-2023/03/11 19:09:58 Tiempo empleado método Bucket con arreglo de 1000 elementos: 833.941µs
-2023/03/11 19:09:58 Tiempo empleado método Merge con arreglo de 1000 elementos: 976.808µs
-2023/03/11 19:09:58 Tiempo empleado método Quick con arreglo de 1000 elementos: 787.275µs
-2023/03/11 19:09:58 Tiempo empleado método Stooge con arreglo de 1000 elementos: 324.296018ms
-2023/03/11 19:09:59 Tiempo empleado método Heap con arreglo de 1000 elementos: 330.255536ms
-2023/03/11 19:09:59 Tiempo empleado método Burbuja con arreglo de 10000 elementos: 252.535489ms
-2023/03/11 19:09:59 Tiempo empleado método Burbuja Doble con arreglo de 10000 elementos: 169.325923ms
-2023/03/11 19:09:59 Tiempo empleado método Seleccion con arreglo de 10000 elementos: 120.67471ms
-2023/03/11 19:09:59 Tiempo empleado método Insercion con arreglo de 10000 elementos: 37.163371ms
-2023/03/11 19:09:59 Tiempo empleado método Recursive Insertion con arreglo de 10000 elementos: 51.452162ms
-2023/03/11 19:09:59 Tiempo empleado método Shell con arreglo de 10000 elementos: 1.862448ms
-2023/03/11 19:09:59 Tiempo empleado método Bucket con arreglo de 10000 elementos: 40.027688ms
-2023/03/11 19:09:59 Tiempo empleado método Merge con arreglo de 10000 elementos: 6.881704ms
-2023/03/11 19:09:59 Tiempo empleado método Quick con arreglo de 10000 elementos: 11.852019ms
-2023/03/11 19:13:52 Tiempo empleado método Stooge con arreglo de 10000 elementos: 3m52.883882092s
-2023/03/11 19:17:44 Tiempo empleado método Heap con arreglo de 10000 elementos: 3m52.138877075s
-2023/03/11 19:18:14 Tiempo empleado método Burbuja con arreglo de 100000 elementos: 29.588715748s
-2023/03/11 19:18:31 Tiempo empleado método Burbuja Doble con arreglo de 100000 elementos: 16.953404872s
-2023/03/11 19:18:43 Tiempo empleado método Seleccion con arreglo de 100000 elementos: 11.737808953s
-2023/03/11 19:18:46 Tiempo empleado método Insercion con arreglo de 100000 elementos: 3.605973605s
-2023/03/11 19:18:51 Tiempo empleado método Recursive Insertion con arreglo de 100000 elementos: 4.739613121s
-2023/03/11 19:18:51 Tiempo empleado método Shell con arreglo de 100000 elementos: 26.3593ms
-2023/03/11 19:18:55 Tiempo empleado método Bucket con arreglo de 100000 elementos: 3.63836013s
-2023/03/11 19:18:55 Tiempo empleado método Merge con arreglo de 100000 elementos: 84.182941ms
-2023/03/11 19:18:55 Tiempo empleado método Quick con arreglo de 100000 elementos: 107.776577ms
+Inicia la prueba con 100 elementos
+2023/03/12 16:22:14 Tiempo empleado método Burbuja con arreglo de 100 elementos: 26.831µs
+2023/03/12 16:22:14 Tiempo empleado método Burbuja Doble con arreglo de 100 elementos: 38.068µs
+2023/03/12 16:22:14 Tiempo empleado método Seleccion con arreglo de 100 elementos: 26.623µs
+2023/03/12 16:22:14 Tiempo empleado método Insercion con arreglo de 100 elementos: 8.533µs
+2023/03/12 16:22:14 Tiempo empleado método Recursive Insertion con arreglo de 100 elementos: 11.437µs
+2023/03/12 16:22:14 Tiempo empleado método Shell con arreglo de 100 elementos: 11.371µs
+2023/03/12 16:22:14 Tiempo empleado método Bucket con arreglo de 100 elementos: 46.705µs
+2023/03/12 16:22:14 Tiempo empleado método Merge con arreglo de 100 elementos: 48.438µs
+2023/03/12 16:22:14 Tiempo empleado método Quick con arreglo de 100 elementos: 56.752µs
+2023/03/12 16:22:14 Tiempo empleado método Bitonic con arreglo de 100 elementos: 24.111µs
+2023/03/12 16:22:14 Tiempo empleado método Gnome con arreglo de 100 elementos: 33.644µs
+2023/03/12 16:22:14 Tiempo empleado método Binary Insertion con arreglo de 100 elementos: 14.894µs
+2023/03/12 16:22:14 Tiempo empleado método Strand con arreglo de 100 elementos: 162.836µs
+2023/03/12 16:22:14 Tiempo empleado método Radix con arreglo de 100 elementos: 157.943µs
+2023/03/12 16:22:14 
+Inicia la prueba con 1.000 elementos
+2023/03/12 16:22:14 Tiempo empleado método Burbuja con arreglo de 1000 elementos: 2.363067ms
+2023/03/12 16:22:14 Tiempo empleado método Burbuja Doble con arreglo de 1000 elementos: 1.512501ms
+2023/03/12 16:22:14 Tiempo empleado método Seleccion con arreglo de 1000 elementos: 4.929105ms
+2023/03/12 16:22:14 Tiempo empleado método Insercion con arreglo de 1000 elementos: 429.919µs
+2023/03/12 16:22:14 Tiempo empleado método Recursive Insertion con arreglo de 1000 elementos: 798.287µs
+2023/03/12 16:22:14 Tiempo empleado método Shell con arreglo de 1000 elementos: 123.677µs
+2023/03/12 16:22:14 Tiempo empleado método Bucket con arreglo de 1000 elementos: 542.411µs
+2023/03/12 16:22:14 Tiempo empleado método Merge con arreglo de 1000 elementos: 573.436µs
+2023/03/12 16:22:14 Tiempo empleado método Quick con arreglo de 1000 elementos: 1.370695ms
+2023/03/12 16:22:14 Tiempo empleado método Bitonic con arreglo de 1000 elementos: 321.517µs
+2023/03/12 16:22:14 Tiempo empleado método Gnome con arreglo de 1000 elementos: 1.486731ms
+2023/03/12 16:22:14 Tiempo empleado método Binary Insertion con arreglo de 1000 elementos: 548.104µs
+2023/03/12 16:22:14 Tiempo empleado método Strand con arreglo de 1000 elementos: 7.356939ms
+2023/03/12 16:22:14 Tiempo empleado método Radix con arreglo de 1000 elementos: 1.051957ms
+2023/03/12 16:22:14 
+Inicia la prueba con 10.000 elementos
+2023/03/12 16:22:14 Tiempo empleado método Burbuja con arreglo de 10000 elementos: 290.69452ms
+2023/03/12 16:22:14 Tiempo empleado método Burbuja Doble con arreglo de 10000 elementos: 166.68771ms
+2023/03/12 16:22:14 Tiempo empleado método Seleccion con arreglo de 10000 elementos: 119.232486ms
+2023/03/12 16:22:14 Tiempo empleado método Insercion con arreglo de 10000 elementos: 40.10618ms
+2023/03/12 16:22:14 Tiempo empleado método Recursive Insertion con arreglo de 10000 elementos: 52.294028ms
+2023/03/12 16:22:14 Tiempo empleado método Shell con arreglo de 10000 elementos: 1.614461ms
+2023/03/12 16:22:15 Tiempo empleado método Bucket con arreglo de 10000 elementos: 38.603414ms
+2023/03/12 16:22:15 Tiempo empleado método Merge con arreglo de 10000 elementos: 10.028671ms
+2023/03/12 16:22:15 Tiempo empleado método Quick con arreglo de 10000 elementos: 12.285293ms
+2023/03/12 16:22:15 Tiempo empleado método Bitonic con arreglo de 10000 elementos: 4.717834ms
+2023/03/12 16:22:15 Tiempo empleado método Gnome con arreglo de 10000 elementos: 127.90661ms
+2023/03/12 16:22:15 Tiempo empleado método Binary Insertion con arreglo de 10000 elementos: 41.110619ms
+2023/03/12 16:22:15 Tiempo empleado método Strand con arreglo de 10000 elementos: 330.524587ms
+2023/03/12 16:22:15 Tiempo empleado método Radix con arreglo de 10000 elementos: 9.219487ms
+2023/03/12 16:22:15 
+Inicia la prueba con 50.000 elementos
+2023/03/12 16:22:22 Tiempo empleado método Burbuja con arreglo de 50000 elementos: 7.272097358s
+2023/03/12 16:22:27 Tiempo empleado método Burbuja Doble con arreglo de 50000 elementos: 4.205007207s
+2023/03/12 16:22:29 Tiempo empleado método Seleccion con arreglo de 50000 elementos: 2.9042744s
+2023/03/12 16:22:30 Tiempo empleado método Insercion con arreglo de 50000 elementos: 870.224742ms
+2023/03/12 16:22:32 Tiempo empleado método Recursive Insertion con arreglo de 50000 elementos: 1.175325957s
+2023/03/12 16:22:32 Tiempo empleado método Shell con arreglo de 50000 elementos: 11.523503ms
+2023/03/12 16:22:32 Tiempo empleado método Bucket con arreglo de 50000 elementos: 885.61694ms
+2023/03/12 16:22:32 Tiempo empleado método Merge con arreglo de 50000 elementos: 44.919468ms
+2023/03/12 16:22:33 Tiempo empleado método Quick con arreglo de 50000 elementos: 61.396547ms
+2023/03/12 16:22:33 Tiempo empleado método Bitonic con arreglo de 50000 elementos: 26.226941ms
+2023/03/12 16:22:35 Tiempo empleado método Gnome con arreglo de 50000 elementos: 2.91885279s
+2023/03/12 16:22:36 Tiempo empleado método Binary Insertion con arreglo de 50000 elementos: 877.055834ms
+2023/03/12 16:22:47 Tiempo empleado método Strand con arreglo de 50000 elementos: 10.567014686s
+2023/03/12 16:22:47 Tiempo empleado método Radix con arreglo de 50000 elementos: 42.775038ms
+2023/03/12 16:22:47 
+Inicia la prueba con 100.000 elementos
+2023/03/12 16:23:17 Tiempo empleado método Burbuja con arreglo de 100000 elementos: 29.470492196s
+2023/03/12 16:23:33 Tiempo empleado método Burbuja Doble con arreglo de 100000 elementos: 16.773678809s
+2023/03/12 16:23:45 Tiempo empleado método Seleccion con arreglo de 100000 elementos: 11.596377086s
+2023/03/12 16:23:48 Tiempo empleado método Insercion con arreglo de 100000 elementos: 3.482310103s
+2023/03/12 16:23:53 Tiempo empleado método Recursive Insertion con arreglo de 100000 elementos: 4.671358418s
+2023/03/12 16:23:53 Tiempo empleado método Shell con arreglo de 100000 elementos: 26.364818ms
+2023/03/12 16:23:57 Tiempo empleado método Bucket con arreglo de 100000 elementos: 3.583147256s
+2023/03/12 16:23:57 Tiempo empleado método Merge con arreglo de 100000 elementos: 91.501107ms
+2023/03/12 16:23:57 Tiempo empleado método Quick con arreglo de 100000 elementos: 108.112463ms
+2023/03/12 16:23:57 Tiempo empleado método Bitonic con arreglo de 100000 elementos: 60.342802ms
+2023/03/12 16:24:09 Tiempo empleado método Gnome con arreglo de 100000 elementos: 11.781595525s
+2023/03/12 16:24:12 Tiempo empleado método Binary Insertion con arreglo de 100000 elementos: 3.489262463s
+2023/03/12 16:25:00 Tiempo empleado método Strand con arreglo de 100000 elementos: 47.364837442s
+2023/03/12 16:25:00 Tiempo empleado método Radix con arreglo de 100000 elementos: 80.017817ms
+2023/03/12 16:25:00 
+Inicia la prueba con 500.000 elementos
+2023/03/12 16:38:34 Tiempo empleado método Burbuja con arreglo de 500000 elementos: 13m34.198666357s
+2023/03/12 16:45:53 Tiempo empleado método Burbuja Doble con arreglo de 500000 elementos: 7m19.186773383s
+2023/03/12 16:50:53 Tiempo empleado método Seleccion con arreglo de 500000 elementos: 4m59.636989903s
+2023/03/12 16:52:26 Tiempo empleado método Insercion con arreglo de 500000 elementos: 1m33.285492706s
+2023/03/12 16:54:24 Tiempo empleado método Recursive Insertion con arreglo de 500000 elementos: 1m58.106400663s
+2023/03/12 16:54:25 Tiempo empleado método Shell con arreglo de 500000 elementos: 148.363452ms
+2023/03/12 16:55:54 Tiempo empleado método Bucket con arreglo de 500000 elementos: 1m29.68809096s
+2023/03/12 16:55:55 Tiempo empleado método Merge con arreglo de 500000 elementos: 345.453156ms
+2023/03/12 16:55:55 Tiempo empleado método Quick con arreglo de 500000 elementos: 527.864761ms
+2023/03/12 16:55:55 Tiempo empleado método Bitonic con arreglo de 500000 elementos: 327.346248ms
+2023/03/12 17:00:53 Tiempo empleado método Gnome con arreglo de 500000 elementos: 4m57.467119788s
+2023/03/12 17:02:24 Tiempo empleado método Binary Insertion con arreglo de 500000 elementos: 1m31.225687048s
+2023/03/12 17:22:35 Tiempo empleado método Strand con arreglo de 500000 elementos: 20m10.847256671s
+2023/03/12 17:22:36 Tiempo empleado método Radix con arreglo de 500000 elementos: 582.511912ms

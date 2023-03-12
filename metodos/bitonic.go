@@ -4,35 +4,44 @@ package metodos
 // Código proporcionado por OpenAI, 2023
 // Recuperado de https://github.com/openai/chat-bots
 
-// Función que realiza la ordenación bitónica
+// BitonicSort ordena un arreglo utilizando el algoritmo de Bitonic Sort
 func BitonicSort(arr []int, asc bool) []int {
 	n := len(arr)
 	if n <= 1 {
 		return arr
 	}
-	// Se divide el arreglo en dos partes y se ordenan
-	m := n / 2
-	a1 := BitonicSort(arr[:m], true)
-	a2 := BitonicSort(arr[m:], false)
-	// Se mezclan ambas partes
-	return bitonicMerge(a1, a2, asc)
-}
 
-// Función que mezcla dos arreglos bitónicos
-func bitonicMerge(a1, a2 []int, asc bool) []int {
-	n := len(a1) + len(a2)
-	arr := make([]int, n)
-	// Se ordenan los arreglos según el ordenamiento bitónico
-	for k := 0; k < n; k++ {
-		bitonicCompare(a1, a2, k, asc)
-		arr[k] = a1[k]
-	}
+	// Crear un arreglo bitónico
+	bitonicSort(arr, 0, n, asc)
+
 	return arr
 }
 
-// Función que compara dos elementos de arreglos bitónicos según el ordenamiento bitónico
-func bitonicCompare(a1, a2 []int, k int, asc bool) {
-	if asc == (a1[k%len(a1)] > a2[k%len(a2)]) {
-		a1[k%len(a1)], a2[k%len(a2)] = a2[k%len(a2)], a1[k%len(a1)]
+// Función auxiliar para crear un arreglo bitónico
+func bitonicSort(arr []int, low, cnt int, asc bool) {
+	if cnt > 1 {
+		mid := cnt / 2
+		bitonicSort(arr, low, mid, !asc)
+		bitonicSort(arr, low+mid, cnt-mid, asc)
+		bitonicMerge(arr, low, cnt, asc)
+	}
+}
+
+// Función para mezclar dos arreglos bitónicos
+func bitonicMerge(arr []int, low, cnt int, asc bool) {
+	if cnt > 1 {
+		k := cnt / 2
+		for i := low; i < low+k; i++ {
+			bitonicCompare(arr, i, i+k, asc)
+		}
+		bitonicMerge(arr, low, k, asc)
+		bitonicMerge(arr, low+k, k, asc)
+	}
+}
+
+// Función para comparar y ordenar dos elementos de un arreglo en orden bitónico
+func bitonicCompare(arr []int, i, j int, asc bool) {
+	if (arr[i] > arr[j] && asc) || (arr[i] < arr[j] && !asc) {
+		arr[i], arr[j] = arr[j], arr[i]
 	}
 }
