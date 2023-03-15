@@ -93,3 +93,16 @@ Inicia la prueba con 500.000 elementos
 2023/03/12 17:02:24 Tiempo empleado método Binary Insertion con arreglo de 500000 elementos: 1m31.225687048s
 2023/03/12 17:22:35 Tiempo empleado método Strand con arreglo de 500000 elementos: 20m10.847256671s
 2023/03/12 17:22:36 Tiempo empleado método Radix con arreglo de 500000 elementos: 582.511912ms
+2023/03/14 19:10:14 
+Inicia la prueba con 100 elementos
+2023/03/14 19:10:14 Tiempo empleado método Heap con arreglo de 100 elementos: 4.530004ms
+2023/03/14 19:10:14 
+Inicia la prueba con 1.000 elementos
+2023/03/14 19:10:14 Tiempo empleado método Heap con arreglo de 1000 elementos: 312.183592ms
+2023/03/14 19:10:14 
+Inicia la prueba con 10.000 elementos
+2023/03/14 19:14:02 Tiempo empleado método Heap con arreglo de 10000 elementos: 3m48.203085394s
+2023/03/13 13:38:04
+Inicia la prueba con 50.000 elementos
+2023/03/13 14:58:44 Tiempo empleado método Heap con arreglo de 50000 elementos: 1h20m39.1644832s
+2023/03/13 16:18:14 Tiempo empleado método Stooge con arreglo de 50000 elementos: 1h19m30.0979601s

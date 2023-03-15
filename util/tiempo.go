@@ -1,12 +1,12 @@
 package util
 
 import (
-	"log"
+	"ordenamiento/modelo"
 	"time"
 )
 
-func MedirTiempo(now time.Time, texto string) {
+func MedirTiempo(now time.Time, resultado *modelo.Resultados, prueba *modelo.Prueba) {
 	duracion := time.Since(now)
-
-	log.Printf(texto, duracion)
+	prueba.Tiempo = duracion
+	resultado.Metodo = append(resultado.Metodo, *(prueba))
 }
