@@ -1,0 +1,8 @@
+La estructura del proyecto es:
+1) arreglos: directorio con los archivos de los arreglos utilizados para ordenar.
+2) metodos: directorio con los códigos de los métodos de ordenamiento.
+3) modelo: directorio con estructuras (clases en Java), utilizados en diferentes tareas.
+4) resultados: directorio con los archivos de resultado y los resultados ordenados por prueba.
+5) util: directorio con códigos para realizar tareas repetitivas y que no tienen relación con los métodos.
+6) go.mod: archivo para el control de dependencias del programa.
+7) main.go: código principal con la función main().
