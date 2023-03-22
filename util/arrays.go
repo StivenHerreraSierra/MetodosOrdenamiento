@@ -74,7 +74,7 @@ func OrdenarResultados(resultados []modelo.Resultados) []modelo.Resultados {
 	for res := 0; res < len(resultados); res++ {
 		pruebas := resultados[res].Metodo
 		sort.Slice(pruebas, func(i, j int) bool {
-			return pruebas[i].Tiempo < pruebas[j].Tiempo
+			return pruebas[i].Tiempo > pruebas[j].Tiempo
 		})
 
 		ordenado[res].Metodo = pruebas

@@ -1,117 +1,117 @@
 Prueba con arreglo de 100 elementos
 
-1. Insercion: 6.085µs
-2. Recursive insercion: 8.266µs
-3. Shell: 9.732µs
-4. Heap: 11.753µs
-5. Insertion: 12.594µs
-6. Gnome: 15.722µs
-7. Bitonic: 18.653µs
-8. Seleccion: 29.963µs
-9. Quick: 39.526µs
-10. Bucket: 41.855µs
-11. Merge: 48.998µs
-12. Radix: 136.192µs
-13. Strand: 165.202µs
-14. Burbuja: 760.282µs
-15. Burbuja doble: 1.801426ms
-16. Stooge: 2.123885ms
+1. Stooge: 2.123885ms
+2. Burbuja doble: 1.801426ms
+3. Burbuja: 760.282µs
+4. Strand: 165.202µs
+5. Radix: 136.192µs
+6. Merge: 48.998µs
+7. Bucket: 41.855µs
+8. Quick: 39.526µs
+9. Seleccion: 29.963µs
+10. Bitonic: 18.653µs
+11. Gnome: 15.722µs
+12. Insertion: 12.594µs
+13. Heap: 11.753µs
+14. Shell: 9.732µs
+15. Recursive insercion: 8.266µs
+16. Insercion: 6.085µs
 ======================
 
 Prueba con arreglo de 1000 elementos
 
-1. Shell: 139.594µs
-2. Heap: 410.503µs
-3. Insertion: 489.201µs
-4. Bitonic: 491.834µs
-5. Merge: 594.72µs
-6. Insercion: 637.512µs
-7. Quick: 677.377µs
-8. Bucket: 1.096063ms
-9. Recursive insercion: 1.208748ms
-10. Gnome: 1.306218ms
-11. Burbuja doble: 1.643675ms
-12. Radix: 1.892771ms
-13. Burbuja: 2.035517ms
-14. Seleccion: 2.252916ms
-15. Strand: 13.921388ms
-16. Stooge: 333.520028ms
+1. Stooge: 333.520028ms
+2. Strand: 13.921388ms
+3. Seleccion: 2.252916ms
+4. Burbuja: 2.035517ms
+5. Radix: 1.892771ms
+6. Burbuja doble: 1.643675ms
+7. Gnome: 1.306218ms
+8. Recursive insercion: 1.208748ms
+9. Bucket: 1.096063ms
+10. Quick: 677.377µs
+11. Insercion: 637.512µs
+12. Merge: 594.72µs
+13. Bitonic: 491.834µs
+14. Insertion: 489.201µs
+15. Heap: 410.503µs
+16. Shell: 139.594µs
 ======================
 
 Prueba con arreglo de 10000 elementos
 
-1. Shell: 1.54771ms
-2. Heap: 3.521903ms
-3. Bitonic: 5.254618ms
-4. Quick: 11.265718ms
-5. Merge: 15.33093ms
-6. Radix: 15.502604ms
-7. Insercion: 37.640146ms
-8. Insertion: 39.294924ms
-9. Bucket: 41.217473ms
-10. Recursive insercion: 51.882067ms
-11. Seleccion: 118.940503ms
-12. Gnome: 120.208673ms
-13. Burbuja doble: 174.299065ms
-14. Burbuja: 261.721759ms
-15. Strand: 400.473096ms
-16. Stooge: 3m48.986636644s
+1. Stooge: 3m48.986636644s
+2. Strand: 400.473096ms
+3. Burbuja: 261.721759ms
+4. Burbuja doble: 174.299065ms
+5. Gnome: 120.208673ms
+6. Seleccion: 118.940503ms
+7. Recursive insercion: 51.882067ms
+8. Bucket: 41.217473ms
+9. Insertion: 39.294924ms
+10. Insercion: 37.640146ms
+11. Radix: 15.502604ms
+12. Merge: 15.33093ms
+13. Quick: 11.265718ms
+14. Bitonic: 5.254618ms
+15. Heap: 3.521903ms
+16. Shell: 1.54771ms
 ======================
 
 Prueba con arreglo de 50000 elementos
 
-1. Shell: 12.833335ms
-2. Heap: 18.35036ms
-3. Bitonic: 27.352634ms
-4. Merge: 57.486803ms
-5. Radix: 65.917154ms
-6. Quick: 117.414112ms
-7. Insertion: 875.898964ms
+1. Strand: 14.006731518s
+2. Burbuja: 7.520119206s
+3. Burbuja doble: 4.248235927s
+4. Gnome: 2.991306879s
+5. Seleccion: 2.916640746s
+6. Recursive insercion: 1.179577092s
+7. Bucket: 903.551892ms
 8. Insercion: 882.136087ms
-9. Bucket: 903.551892ms
-10. Recursive insercion: 1.179577092s
-11. Seleccion: 2.916640746s
-12. Gnome: 2.991306879s
-13. Burbuja doble: 4.248235927s
-14. Burbuja: 7.520119206s
-15. Strand: 14.006731518s
+9. Insertion: 875.898964ms
+10. Quick: 117.414112ms
+11. Radix: 65.917154ms
+12. Merge: 57.486803ms
+13. Bitonic: 27.352634ms
+14. Heap: 18.35036ms
+15. Shell: 12.833335ms
 ======================
 
 Prueba con arreglo de 100000 elementos
 
-1. Shell: 25.088036ms
-2. Heap: 37.55821ms
-3. Bitonic: 68.773887ms
-4. Radix: 100.028435ms
-5. Merge: 135.581802ms
-6. Quick: 135.924302ms
-7. Bucket: 3.560591861s
+1. Strand: 1m2.176529609s
+2. Burbuja: 29.800341183s
+3. Burbuja doble: 16.958823284s
+4. Gnome: 11.79455781s
+5. Seleccion: 11.659690159s
+6. Recursive insercion: 4.692415688s
+7. Insertion: 3.608634145s
 8. Insercion: 3.598017542s
-9. Insertion: 3.608634145s
-10. Recursive insercion: 4.692415688s
-11. Seleccion: 11.659690159s
-12. Gnome: 11.79455781s
-13. Burbuja doble: 16.958823284s
-14. Burbuja: 29.800341183s
-15. Strand: 1m2.176529609s
+9. Bucket: 3.560591861s
+10. Quick: 135.924302ms
+11. Merge: 135.581802ms
+12. Radix: 100.028435ms
+13. Bitonic: 68.773887ms
+14. Heap: 37.55821ms
+15. Shell: 25.088036ms
 ======================
 
 Prueba con arreglo de 500000 elementos
 
-1. Shell: 147.181647ms
-2. Heap: 184.133114ms
-3. Bitonic: 335.084268ms
-4. Merge: 533.428178ms
-5. Radix: 688.763051ms
-6. Quick: 849.032268ms
-7. Insercion: 1m31.944186512s
+1. Strand: 29m30.729094805s
+2. Burbuja: 13m30.734010442s
+3. Burbuja doble: 7m7.117323016s
+4. Seleccion: 5m3.103603393s
+5. Gnome: 5m0.571642835s
+6. Recursive insercion: 2m0.638706295s
+7. Bucket: 1m32.822166841s
 8. Insertion: 1m32.783965364s
-9. Bucket: 1m32.822166841s
-10. Recursive insercion: 2m0.638706295s
-11. Gnome: 5m0.571642835s
-12. Seleccion: 5m3.103603393s
-13. Burbuja doble: 7m7.117323016s
-14. Burbuja: 13m30.734010442s
-15. Strand: 29m30.729094805s
+9. Insercion: 1m31.944186512s
+10. Quick: 849.032268ms
+11. Radix: 688.763051ms
+12. Merge: 533.428178ms
+13. Bitonic: 335.084268ms
+14. Heap: 184.133114ms
+15. Shell: 147.181647ms
 ======================
 
